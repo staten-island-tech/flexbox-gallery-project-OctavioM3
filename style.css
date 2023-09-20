@@ -1,24 +1,28 @@
-body {
+html,
+body,
+* {
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.card {
-    width: 27vw;
-    height: 35vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: antiquewhite;
-}.card-title {
+.parent {
+font-size: 30px;
+display: flex;
+justify-content: space-between;
+width: 80vw;
+}
+.child {
     font-size: 2.2rem;
-    text-transform: uppercase;
+    border: 1px solid cyan;
+    width: 28%;
 }
-.card-img {
-    width: 80%;
+.child-1 {
+    border: 1px solid green;
 }
-.card-desc {
-    font-size: 1.3rem;
+.child-2 {
+    border: 1px solid yellow;
+}
+.child-3 {
+    border: 1px solid blue;
 }
