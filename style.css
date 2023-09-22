@@ -18,15 +18,19 @@ align-items: center;
     border: 1px solid cyan;
     width: 28%;
 }
-.sec-1 {
+.top-row {
     border: 3px solid green;
     height: 800px;
 }
-.sec-2 {
+.middle-row {
     border: 3px solid yellow;
     height: 800px;
 }
-.sec-3 {
+.bottom-row {
     border: 3px solid blue;
     height: 800px;
+}
+.card-img {
+    width: 100px;
+    height: 100px;
 }
