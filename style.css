@@ -4,6 +4,7 @@
   justify-content: space-between;
   width: 100vw;
   align-items: center;
+  width: 60%;
 }
 .left-column {
   border: 3px solid green;
@@ -19,6 +20,12 @@
 }
 .right-column {
   border: 3px solid blue;
+  text-align: center;
+  width: 60%;
+  height: 80%;
+}
+.right-column2 {
+  border: 3px solid red;
   text-align: center;
   width: 60%;
   height: 80%;
