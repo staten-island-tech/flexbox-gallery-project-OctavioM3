@@ -1,36 +1,35 @@
-html,
-body,
-* {
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 .flux-container {
-font-size: 30px;
-display: flex;
-justify-content: space-between;
-width: 100vw;
-align-items: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
 }
-.section {
-    font-size: 2.2rem;
-    border: 1px solid cyan;
-    width: 28%;
+.left-column {
+  border: 3px solid green;
+  text-align: center;
+  width: 60%;
+  height: 80%;
 }
-.top-row {
-    border: 3px solid green;
-    height: 800px;
+.middle-column {
+  border: 3px solid yellow;
+  text-align: center;
+  width: 60%;
+  height: 80%;
 }
-.middle-row {
-    border: 3px solid yellow;
-    height: 800px;
-}
-.bottom-row {
-    border: 3px solid blue;
-    height: 800px;
+.right-column {
+  border: 3px solid blue;
+  text-align: center;
+  width: 60%;
+  height: 80%;
 }
 .card-img {
-    width: 100px;
-    height: 100px;
+  width: 90%;
+  height: 40%;
+}
+.titles {
+  text-transform: uppercase;
+}
+.card-desc {
+    font-size: 20px;
 }
