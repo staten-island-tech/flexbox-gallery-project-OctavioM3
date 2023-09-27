@@ -1,21 +1,24 @@
+.body {
+  background-color: antiquewhite;
+}
 .container {
   font-size: 30px;
   display: flex;
-  justify-content: space-between;
-  width: 50vw;
-  align-items: center;
-  width: 60%;
+  justify-content: space-around;
+  width: 90vh;
+  width: 100%;
   background-color: antiquewhite;
 }
 .card {
-  width: 20%;
-  height: 40%;
+  width: 10%;
+  height: 20%;
   border: 3px solid red;
-  
+  flex-grow: 2;
+  padding: 5vh;
 }
 .card-img {
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
 }
 .titles {
   text-transform: uppercase;
