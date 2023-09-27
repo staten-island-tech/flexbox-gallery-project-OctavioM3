@@ -1,34 +1,26 @@
-.flux-container {
+.container {
   font-size: 30px;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  width: 50vw;
   align-items: center;
   width: 60%;
   background-color: antiquewhite;
 }
-.left-column {
-  text-align: center;
-  width: 60%;
-  height: 80%;
-}
-.middle-column {
-  text-align: center;
-  width: 60%;
-  height: 80%;
-}
-.right-column {
-  text-align: center;
-  width: 60%;
-  height: 80%;
+.card {
+  width: 20%;
+  height: 40%;
+  border: 3px solid red;
+  
 }
 .card-img {
-  width: 90%;
-  height: 40%;
+  width: 10%;
+  height: 10%;
 }
 .titles {
   text-transform: uppercase;
 }
 .card-desc {
   font-size: 20px;
+
 }
