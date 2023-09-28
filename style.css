@@ -11,10 +11,10 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 25vh;
-  height: 25vh;
+  width: 28%;
+  height: 15vh;
   padding: 10vh;
-  padding-bottom: 20vh;
+  padding-bottom: 15vh;
   margin: 5vh;
   text-align: center;
   background-color: rgb(170, 170, 170);
@@ -23,7 +23,17 @@
   align-items: center;
   vertical-align: middle;
   justify-content: space-around;
-  box-shadow: 30px 30px;
+  box-shadow: 15px 15px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .card {
+    width: 10%;
+  }
 }
 .card-img {
   width: 100%;
@@ -33,6 +43,10 @@
   text-transform: uppercase;
 }
 .card-desc {
-  font-size: 35px;
+  font-size: 20px;
   font-family: 'DM Serif Display', serif;
+}
+.card:hover {
+  color: aqua;
+  
 }
