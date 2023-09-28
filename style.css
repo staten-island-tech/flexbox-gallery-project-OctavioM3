@@ -1,29 +1,38 @@
 .body {
-  background-color: antiquewhite;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container {
-  font-size: 30px;
   display: flex;
-  justify-content: space-around;
-  width: 90vh;
-  width: 100%;
-  background-color: antiquewhite;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-image: url(img/Garage.jpg);
+  background-size: cover;
+  flex-wrap: wrap;
 }
 .card {
-  width: 10%;
-  height: 20%;
-  border: 3px solid red;
-  flex-grow: 2;
-  padding: 5vh;
+  width: 25vh;
+  height: 25vh;
+  padding: 10vh;
+  padding-bottom: 20vh;
+  margin: 5vh;
+  text-align: center;
+  background-color: rgb(170, 170, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-around;
+  box-shadow: 30px 30px;
 }
 .card-img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 70%;
 }
 .titles {
   text-transform: uppercase;
 }
 .card-desc {
-  font-size: 20px;
-
+  font-size: 35px;
+  font-family: 'DM Serif Display', serif;
 }
